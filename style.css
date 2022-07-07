@@ -72,18 +72,17 @@ main {
 .bar {
     background-color: #ec775f;
     border-radius: 5px;
-    width: 100%;
+    width: 80%;
 }
 .amount {
     height: 30px;
-    width: 100%;
-    padding-top: 5px;
+    padding: 5px;
     margin-bottom: 10px;
     visibility: hidden;
     background-color: #382314;
     color: #f8e9dd;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 1em;
 }
 
 .max-amount {
