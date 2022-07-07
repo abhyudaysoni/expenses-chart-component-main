@@ -31,7 +31,7 @@ function displayBars() {
         barContainer.classList.add("bar-container");
         const bar = document.createElement("div");
         const weekday = document.createElement("p");
-        const amountTooltip = document.createElement("p");
+        const amountTooltip = document.createElement("div");
 
         amountTooltip.innerHTML = `$${amounts[i]}`;
         amountTooltip.classList.add("amount");
