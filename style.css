@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+body {
+    background-color: #f8e9dd;
+}
+h2 {
+    font-size: 32px;
+}
+p {
+    color: #93867b;
+    font-size: 18px;
+}
+main {
+    height: 700px;
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    max-width: 600px;
+    margin: 10% auto;
+}
+.balance {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ec775f;
+    margin: 2%;
+    padding: 30px;
+    border-radius: 25px;
+    color: #fffaf5;
+}
+.balance p {
+    color: #fffaf5;
+}
+.spending {
+    align-items: center;
+    display: grid;
+    grid-template-rows: 0.5fr 2fr 1fr;
+    flex-direction: column;
+    background-color: #fffaf5;
+    margin: 2%;
+    padding: 30px;
+    border-radius: 25px;
+    color: #382314;
+}
+.bar-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: flex-end;
+    align-items: center;
+}
+.bars {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.bar-container:hover {
+    cursor: pointer;
+    filter: saturate(50%);
+}
+.bars .days {
+    margin-top: 20%;
+    font-size: 14px;
+}
+.bar {
+    background-color: #ec775f;
+    border-radius: 5px;
+    width: 100%;
+}
+.amount {
+    height: 30px;
+    width: 100%;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    visibility: hidden;
+    background-color: #382314;
+    color: #f8e9dd;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.max-amount {
+    background-color: #76b5bc;
+}
+.total-spending {
+    padding-top: 30px;
+    border-top: 1px solid #f5d8c1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.total-spending p {
+    margin-bottom: 10px;
+}
+.total-spending h1 {
+    font-size: 40px;
+}
+.increase {
+    display: flex;
+    justify-content: space-between;
+}
+.increase p {
+    font-size: smaller;
+}
