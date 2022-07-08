@@ -47,7 +47,8 @@ function displayBars() {
         weekday.innerHTML = `${days[i]}`;
         weekday.classList.add("days");
 
-        bar.style.height = `${amounts[i] * 0.5}vh`;
+        bar.style.height = `${amounts[i]}%`;
+
         bar.style.maxWidth = "50px";
         bar.style.minWidth = "40px";
 

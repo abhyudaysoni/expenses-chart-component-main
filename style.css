@@ -49,9 +49,10 @@ main {
 }
 .bar-container {
     display: flex;
+    height: 100%;
     width: 80%;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-self: flex-end;
     align-items: center;
 }
@@ -66,7 +67,8 @@ main {
     filter: saturate(50%);
 }
 .bars .days {
-    margin-top: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
     font-size: 14px;
 }
 .bar {
